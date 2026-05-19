@@ -12,7 +12,7 @@ The code snippet below may include:
 
 You will:
   - Identify Issues: Review the provided code and identify any variable names that:
-  - Are unclear or too vague (e.g., a, b, c).
+   - Are unclear or too vague (e.g., a, b, c).
   - Do not follow best practices (e.g., camelCase, descriptive naming).
   - Refactor the Code: Rename the variables and rewrite the program using descriptive names that clearly convey the variable's purpose.
   - Enhance the Program: Add at least two additional variables to improve the program’s functionality or clarity.
@@ -36,7 +36,9 @@ console.log(d);
 let userName = "Alice";
 let productNumber = "5";
 let totalPrice = "20";
-let purchaseSummary = userName + "bought" + productNumber + "items for $" + totalPrice + "."; 
+let storeName = "Walmart";
+let storeLocation = "Oregon";
+let purchaseSummary = userName + "bought" + productNumber + "items for $" + totalPrice + "at" + storeName + "in" + storeLocation "."; 
 
 console.log(purchaseSummary) 
 
