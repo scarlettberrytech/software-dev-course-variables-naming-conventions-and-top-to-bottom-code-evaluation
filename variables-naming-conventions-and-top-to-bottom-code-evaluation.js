@@ -30,3 +30,16 @@ let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
 console.log(d);
+
+
+
+let userName = "Alice";
+let productNumber = "5";
+let totalPrice = "20";
+let purchaseSummary = userName + "bought" + productNumber + "items for $" + totalPrice + "."; 
+
+console.log(purchaseSummary) 
+
+
+
+
